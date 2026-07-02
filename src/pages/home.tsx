@@ -535,7 +535,7 @@ function TimeAxis() {
     <div className="flex-none w-28 bg-background/90 backdrop-blur-xl border-l border-white/10 z-50">
       {/* Spacer matching pt-24 on the columns wrapper so year labels align with events */}
       <div className="h-24" />
-      <div className="sticky top-24 z-40 bg-background/90 backdrop-blur-md border-b border-white/5 h-44 flex items-end px-4 pb-5">
+      <div className="bg-background/90 border-b border-white/5 h-44 flex items-end px-4 pb-5">
         <span className="text-[10px] font-mono font-bold text-muted-foreground uppercase tracking-widest">Timeline</span>
       </div>
       <div className="relative" style={{ height: `${TIMELINE_HEIGHT}px` }}>
