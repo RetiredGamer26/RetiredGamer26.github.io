@@ -1,4 +1,5 @@
 import { useState, useCallback, useRef, useEffect } from "react";
+import { Link } from "wouter";
 import { createPortal } from "react-dom";
 import studiosData from "@/data/studios.json";
 import { motion, AnimatePresence } from "framer-motion";
@@ -608,7 +609,7 @@ export default function Home() {
         </div>
 
       {/* Disclaimer button — fixed top-right, always above Timeline column */}
-      <a
+      <Link
         href="/disclaimer"
         data-testid="link-disclaimer"
         className="fixed top-4 right-4 z-[60] flex items-center gap-2 px-3 py-1.5 rounded-md border border-white/10 bg-background/80 backdrop-blur-sm text-muted-foreground hover:text-foreground hover:border-white/20 hover:bg-white/5 transition-all text-[11px] font-mono uppercase tracking-widest group"
@@ -616,7 +617,7 @@ export default function Home() {
       >
         <Lightbulb className="w-3.5 h-3.5 group-hover:text-yellow-400 transition-colors" />
         <span>Disclaimer</span>
-      </a>
+      </Link>
 
       {/* Main Canvas */}
       <div className="flex pb-32 min-w-max -mt-24">
