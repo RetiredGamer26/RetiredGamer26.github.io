@@ -1,0 +1,98 @@
+{
+  "studios": [
+    {
+      "id": "uncharted",
+      "name": "Uncharted",
+      "color": "#C49A5A",
+      "founded": 2007,
+      "logo": "src/data/uncharted.png",
+      "foundingMembers": [
+        { "name": "Amy Hennig", "position": "Game Director", "weight": 14, "stillPresent": false },
+        { "name": "Richard Lemarchand", "position": "Lead Game Designer", "weight": 10, "stillPresent": false },
+        { "name": "Bob Rafei", "position": "Art Direction", "weight": 7, "stillPresent": false },
+        { "name": "Bruce Straley", "position": "Art Direction", "weight": 7, "stillPresent": false },
+        { "name": "Pal-Kristian Engstad", "position": "Lead Programmers", "weight": 5, "stillPresent": false },
+        { "name": "Dan Liebgold", "position": "Lead Programmers", "weight": 5, "stillPresent": false },
+        { "name": "Travis McIntosh", "position": "Lead Programmers", "weight": 5, "stillPresent": true },
+        { "name": "Greg Edmonson", "position": "Music Composed by", "weight": 5, "stillPresent": false },
+        { "name": "Josh Scherr", "position": "Lead Cinematic Animator", "weight": 4, "stillPresent": true },
+        { "name": "Jeremy Lai-Yates", "position": "Lead In-Game Animator", "weight": 4, "stillPresent": false },
+        { "name": "Erick Pangilinan", "position": "Lead Environmental Artists", "weight": 4, "stillPresent": false },
+        { "name": "Rob Adams", "position": "Lead Environmental Artists", "weight": 4, "stillPresent": false },
+        { "name": "Bruce Swanson", "position": "Audio Lead", "weight": 4, "stillPresent": false },
+        { "name": "Toby Tobler", "position": "Lead Lighting Artist", "weight": 4, "stillPresent": false },
+        { "name": "Judd Simantov", "position": "Art Technical Lead", "weight": 4, "stillPresent": false },
+        { "name": "Rich Diamant", "position": "Lead Character Artist", "weight": 4, "stillPresent": false },
+        { "name": "Mike Hatfield", "position": "Lead Prop Artist", "weight": 3, "stillPresent": false },
+        { "name": "Gordon Hunt", "position": "Mocap & Voice Direction", "weight": 3, "stillPresent": false },
+        { "name": "Justin Monast", "position": "Director of Information Technology", "weight": 2, "stillPresent": true }
+      ],
+      "events": [
+        {
+          "year": 2007, "month": 11,
+          "type": "first_release",
+          "title": "Uncharted 1: Drake's Fortune is released",
+          "description": "Uncharted 1 is released to the public."
+        },
+        {
+          "year": 2009, "month": 10,
+          "type": "sequel_release",
+          "title": "Uncharted 2: Among Thieves is released",
+          "description": "Uncharted 2 is released to the public. Bob Rafei, Erick Pangilinan and Toby Tobler left the studio after the release of Uncharted 1."
+        },
+        {
+          "year": 2011, "month": 11,
+          "type": "sequel_release",
+          "title": "Uncharted 3: Drake's Deception is released",
+          "description": "Uncharted 3 is released to the public. Bruce Straley, Dan Liebgold, Rob Adams, Judd Simantov and Rich Diamant left the studio after the release of Uncharted 2."
+        },
+        {
+          "year": 2011, "month": 12,
+          "type": "prequel_release",
+          "title": "Uncharted: Golden Abyss is released for the PlayStation Vita.",
+          "description": "Uncharted: Golden Abyss is released to the public for the PlayStation Vita. It was made by a different studio (Bend studio) with Amy Hennig, Game Director and Designer, as a Story Consultant."
+        },
+        {
+          "year": 2012, "month": 11,
+          "type": "spinoff_release",
+          "title": "Uncharted: Fight for Fortune is released for the PlayStation Vita.",
+          "description": "Uncharted: Fight for Fortune is released to the public for the PlayStation Vita. It was made by a different studio (Bend studio) with Amy Hennig, Game Director and Designer, as a Story Consultant."
+        },
+        {
+          "year": 2015, "month": 9,
+          "type": "remaster_release",
+          "title": "Uncharted: The Nathan Drake Collection is released.",
+          "description": "Uncharted: The Nathan Drake Collection is a remastered collection of Drake's Fortune, Among Thieves and Drake's Deception. It was released to the public for the PlayStation 4."
+        },
+        {
+          "year": 2016, "month": 5,
+          "type": "sequel_release",
+          "title": "Uncharted 4: A Thief's End is released",
+          "description": "Uncharted 4 is released to the public. Amy Hennig, Richard Lemarchand, Pal-Kristian Engstad,Greg Edmonson, Bruce Swanson and Gordon Hunt left the studio after the release of Uncharted 3."
+        },
+        {
+          "year": 2016, "month": 5,
+          "type": "spinoff_release",
+          "title": "Uncharted: Fortune hunter is released",
+          "description": "Uncharted: Fortune hunter is released to the public for mobile devices. It was made by a different studio (Playstation Mobile Inc.) with input from the Uncharted team at Naughty Dog."
+        },
+        {
+          "year": 2017, "month": 8,
+          "type": "spinoff_release",
+          "title": "Uncharted: The Lost Legacy is released",
+          "description": "Uncharted: The Lost Legacy is released to the public. Jeremy Lai-Yates and Mike Hatfield left the studio after the relase of Uncharted 4."
+        },
+        {
+          "year": 2022, "month": 1,
+          "type": "remaster_release",
+          "title": "Uncharted: Legacy of Thieves Collection is released.",
+          "description": "Uncharted: Legacy of Thieves Collection is a remastered collection of Uncharted 4 and Uncharted: The Lost Legacy. It was released to the public for the PlayStation 5 and Windows by Naughty Dog and Iron Galaxy studios."
+        }
+      ]
+    }
+
+  ]
+}
+
+
+
