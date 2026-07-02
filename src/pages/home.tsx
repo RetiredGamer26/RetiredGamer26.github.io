@@ -18,6 +18,11 @@ import {
   ChevronDown,
   Lightbulb,
   ExternalLink,
+  Rocket,
+  ChevronsRight,
+  RotateCcw,
+  GitBranch,
+  Sparkles,
 } from "lucide-react";
 
 // --- Constants ---
@@ -31,7 +36,18 @@ const PIXELS_PER_MONTH = PIXELS_PER_YEAR / 12;
 const MONTH_LABELS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 // --- Types ---
-type EventType = "founded" | "acquisition" | "leadership" | "expansion" | "spinoff" | "closure";
+type EventType =
+  | "first_release"
+  | "sequel_release"
+  | "prequel_release"
+  | "spinoff_release"
+  | "remaster_release"
+  | "founded"
+  | "acquisition"
+  | "leadership"
+  | "expansion"
+  | "spinoff"
+  | "closure";
 
 interface StudioEvent {
   year: number;
@@ -75,25 +91,35 @@ function theseusColor(pct: number): string {
 
 function getEventIcon(type: EventType) {
   switch (type) {
-    case "founded":     return Building;
-    case "acquisition": return TrendingUp;
-    case "leadership":  return Users;
-    case "expansion":   return MapPin;
-    case "spinoff":     return Split;
-    case "closure":     return XOctagon;
-    default:            return Info;
+    case "first_release":   return Rocket;
+    case "sequel_release":  return ChevronsRight;
+    case "prequel_release": return RotateCcw;
+    case "spinoff_release": return GitBranch;
+    case "remaster_release":return Sparkles;
+    case "founded":         return Building;
+    case "acquisition":     return TrendingUp;
+    case "leadership":      return Users;
+    case "expansion":       return MapPin;
+    case "spinoff":         return Split;
+    case "closure":         return XOctagon;
+    default:                return Info;
   }
 }
 
 function getEventColor(type: EventType) {
   switch (type) {
-    case "founded":     return "text-blue-400";
-    case "acquisition": return "text-green-400";
-    case "leadership":  return "text-purple-400";
-    case "expansion":   return "text-yellow-400";
-    case "spinoff":     return "text-orange-400";
-    case "closure":     return "text-red-400";
-    default:            return "text-gray-400";
+    case "first_release":   return "text-yellow-400";
+    case "sequel_release":  return "text-blue-400";
+    case "prequel_release": return "text-purple-400";
+    case "spinoff_release": return "text-orange-400";
+    case "remaster_release":return "text-cyan-400";
+    case "founded":         return "text-blue-400";
+    case "acquisition":     return "text-green-400";
+    case "leadership":      return "text-purple-400";
+    case "expansion":       return "text-yellow-400";
+    case "spinoff":         return "text-orange-400";
+    case "closure":         return "text-red-400";
+    default:                return "text-gray-400";
   }
 }
 
@@ -152,18 +178,19 @@ function TheseusPanel({
       animate={{ opacity: 1, y: 0, scale: 1 }}
       exit={{ opacity: 0, y: -8, scale: 0.97 }}
       transition={{ duration: 0.18 }}
-      className="w-72 z-[9999] rounded-xl shadow-2xl backdrop-blur-xl border border-white/10 overflow-hidden"
+      className="w-72 z-[9999] rounded-xl shadow-2xl backdrop-blur-xl border border-white/10 overflow-hidden flex flex-col"
       style={{
         position: "fixed",
         top: panelTop,
         left: panelLeft,
+        maxHeight: `calc(100vh - ${panelTop + 16}px)`,
         background: "hsl(var(--card) / 0.97)",
       }}
       onClick={(e) => e.stopPropagation()}
     >
       {/* Panel header */}
       <div
-        className="px-4 py-3 border-b border-white/8 flex items-center justify-between"
+        className="flex-none px-4 py-3 border-b border-white/8 flex items-center justify-between"
         style={{ background: `${studio.color}14` }}
       >
         <div>
@@ -189,7 +216,7 @@ function TheseusPanel({
       </div>
 
       {/* Progress bar */}
-      <div className="h-1 w-full bg-white/5">
+      <div className="flex-none h-1 w-full bg-white/5">
         <motion.div
           className="h-full rounded-full"
           style={{ backgroundColor: color }}
@@ -199,8 +226,8 @@ function TheseusPanel({
         />
       </div>
 
-      {/* Members list */}
-      <div className="p-3 flex flex-col gap-2">
+      {/* Members list — scrollable */}
+      <div className="overflow-y-auto min-h-0 p-3 flex flex-col gap-2">
         {studio.foundingMembers.map((member) => (
           <div
             key={member.name}
@@ -506,6 +533,8 @@ function TimeAxis() {
 
   return (
     <div className="flex-none w-28 bg-background/90 backdrop-blur-xl border-l border-white/10 z-50">
+      {/* Spacer matching pt-24 on the columns wrapper so year labels align with events */}
+      <div className="h-24" />
       <div className="sticky top-24 z-40 bg-background/90 backdrop-blur-md border-b border-white/5 h-44 flex items-end px-4 pb-5">
         <span className="text-[10px] font-mono font-bold text-muted-foreground uppercase tracking-widest">Timeline</span>
       </div>
