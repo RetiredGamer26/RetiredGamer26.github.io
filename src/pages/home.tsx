@@ -434,7 +434,7 @@ function StudioColumn({
           )}
         </div>
 
-        {/* Studio name + meta */}
+        {/* Franchise name + meta */}
         <div className="px-6 pt-2.5 pb-3 flex flex-col justify-end h-20">
           <h2 className="text-base font-bold tracking-tight text-foreground flex items-center gap-2">
             {studio.name}
@@ -505,7 +505,7 @@ function TimeAxis() {
   const years = Array.from({ length: TOTAL_YEARS }, (_, i) => START_YEAR + i);
 
   return (
-    <div className="sticky right-0 flex-none w-28 bg-background/90 backdrop-blur-xl border-l border-white/10 z-50 self-stretch">
+    <div className="flex-none w-28 bg-background/90 backdrop-blur-xl border-l border-white/10 z-50">
       <div className="sticky top-24 z-40 bg-background/90 backdrop-blur-md border-b border-white/5 h-44 flex items-end px-4 pb-5">
         <span className="text-[10px] font-mono font-bold text-muted-foreground uppercase tracking-widest">Timeline</span>
       </div>
@@ -587,11 +587,11 @@ export default function Home() {
     : 0;
 
   return (
-    <div className="min-h-screen bg-background text-foreground font-sans selection:bg-white/10 overflow-x-auto overflow-y-auto">
+    <div className="min-h-screen bg-background text-foreground font-sans selection:bg-white/10">
       <div className="fixed inset-0 pointer-events-none bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-20" />
 
       {/* Header */}
-      <div className="sticky top-0 left-0 h-24 z-50 flex items-center px-8 gap-8 bg-gradient-to-b from-background via-background/90 to-transparent min-w-max">
+      <div className="sticky top-0 left-0 h-24 z-50 flex items-center px-8 gap-8 bg-gradient-to-b from-background via-background/90 to-transparent">
         <div className="pointer-events-none">
           <h1 className="text-2xl font-bold tracking-tighter">Theseus Status</h1>
           <p className="text-xs font-mono text-muted-foreground mt-1">GAME FRANCHISE TRACKER</p>
@@ -612,7 +612,7 @@ export default function Home() {
       <Link
         href="/disclaimer"
         data-testid="link-disclaimer"
-        className="fixed top-4 right-4 z-[60] flex items-center gap-2 px-3 py-1.5 rounded-md border border-white/10 bg-background/80 backdrop-blur-sm text-muted-foreground hover:text-foreground hover:border-white/20 hover:bg-white/5 transition-all text-[11px] font-mono uppercase tracking-widest group"
+        className="fixed top-4 right-32 z-[60] flex items-center gap-2 px-3 py-1.5 rounded-md border border-white/10 bg-background/80 backdrop-blur-sm text-muted-foreground hover:text-foreground hover:border-white/20 hover:bg-white/5 transition-all text-[11px] font-mono uppercase tracking-widest group"
         title="Disclaimer"
       >
         <Lightbulb className="w-3.5 h-3.5 group-hover:text-yellow-400 transition-colors" />
@@ -620,12 +620,16 @@ export default function Home() {
       </Link>
 
       {/* Main Canvas */}
-      <div className="flex pb-32 min-w-max -mt-24">
-        <div className="flex pt-24">
-          {studios.map((studio) => (
-            <StudioColumn key={studio.id} studio={studio} searchQuery={searchQuery} />
-          ))}
-          <div className="w-8 flex-none" />
+      <div className="flex -mt-24">
+        <div className="flex-1 overflow-x-auto">
+          <div className="flex pb-32 min-w-max">
+            <div className="flex pt-24">
+              {studios.map((studio) => (
+                <StudioColumn key={studio.id} studio={studio} searchQuery={searchQuery} />
+              ))}
+              <div className="w-8 flex-none" />
+            </div>
+          </div>
         </div>
         <TimeAxis />
       </div>

@@ -13,10 +13,10 @@ function Disclaimer() {
           <CardContent className="space-y-4 text-sm leading-6">
             <p>
               This application is provided for informational purposes only. Statuses,
-              timelines, and studio availability may be updated without notice.
+              timelines, and franchise availability may be updated without notice.
             </p>
             <p>
-              Always verify important details directly with the relevant studio or
+              Always verify important details directly with the relevant franchise or
               organization before making decisions based on this information.
             </p>
             <div>
