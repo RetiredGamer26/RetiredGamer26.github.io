@@ -7,25 +7,25 @@
       "founded": 2007,
       "logo": "src/data/uncharted.png",
       "foundingMembers": [
-        { "name": "Amy Hennig", "position": "Game Director", "weight": 14, "stillPresent": false },
-        { "name": "Richard Lemarchand", "position": "Lead Game Designer", "weight": 10, "stillPresent": false },
-        { "name": "Bob Rafei", "position": "Art Direction", "weight": 7, "stillPresent": false },
-        { "name": "Bruce Straley", "position": "Art Direction", "weight": 7, "stillPresent": false },
-        { "name": "Pal-Kristian Engstad", "position": "Lead Programmers", "weight": 5, "stillPresent": false },
-        { "name": "Dan Liebgold", "position": "Lead Programmers", "weight": 5, "stillPresent": false },
-        { "name": "Travis McIntosh", "position": "Lead Programmers", "weight": 5, "stillPresent": true },
-        { "name": "Greg Edmonson", "position": "Music Composed by", "weight": 5, "stillPresent": false },
-        { "name": "Josh Scherr", "position": "Lead Cinematic Animator", "weight": 4, "stillPresent": true },
-        { "name": "Jeremy Lai-Yates", "position": "Lead In-Game Animator", "weight": 4, "stillPresent": false },
-        { "name": "Erick Pangilinan", "position": "Lead Environmental Artists", "weight": 4, "stillPresent": false },
-        { "name": "Rob Adams", "position": "Lead Environmental Artists", "weight": 4, "stillPresent": false },
-        { "name": "Bruce Swanson", "position": "Audio Lead", "weight": 4, "stillPresent": false },
-        { "name": "Toby Tobler", "position": "Lead Lighting Artist", "weight": 4, "stillPresent": false },
-        { "name": "Judd Simantov", "position": "Art Technical Lead", "weight": 4, "stillPresent": false },
-        { "name": "Rich Diamant", "position": "Lead Character Artist", "weight": 4, "stillPresent": false },
-        { "name": "Mike Hatfield", "position": "Lead Prop Artist", "weight": 3, "stillPresent": false },
-        { "name": "Gordon Hunt", "position": "Mocap & Voice Direction", "weight": 3, "stillPresent": false },
-        { "name": "Justin Monast", "position": "Director of Information Technology", "weight": 2, "stillPresent": true }
+        { "name": "Amy Hennig",          "position": "Game Director",                    "weight": 14, "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
+        { "name": "Richard Lemarchand",  "position": "Lead Game Designer",               "weight": 10, "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
+        { "name": "Bob Rafei",           "position": "Art Direction",                    "weight": 7,  "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
+        { "name": "Bruce Straley",       "position": "Art Direction",                    "weight": 7,  "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 10 },
+        { "name": "Pal-Kristian Engstad","position": "Lead Programmers",                 "weight": 5,  "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
+        { "name": "Dan Liebgold",        "position": "Lead Programmers",                 "weight": 5,  "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 10 },
+        { "name": "Travis McIntosh",     "position": "Lead Programmers",                 "weight": 5,  "stillPresent": true },
+        { "name": "Greg Edmonson",       "position": "Music Composed by",                "weight": 5,  "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
+        { "name": "Josh Scherr",         "position": "Lead Cinematic Animator",          "weight": 4,  "stillPresent": true },
+        { "name": "Jeremy Lai-Yates",    "position": "Lead In-Game Animator",            "weight": 4,  "stillPresent": false, "lastGameYear": 2016, "lastGameMonth": 5 },
+        { "name": "Erick Pangilinan",    "position": "Lead Environmental Artists",       "weight": 4,  "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
+        { "name": "Rob Adams",           "position": "Lead Environmental Artists",       "weight": 4,  "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 10 },
+        { "name": "Bruce Swanson",       "position": "Audio Lead",                       "weight": 4,  "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
+        { "name": "Toby Tobler",         "position": "Lead Lighting Artist",             "weight": 4,  "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
+        { "name": "Judd Simantov",       "position": "Art Technical Lead",               "weight": 4,  "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 10 },
+        { "name": "Rich Diamant",        "position": "Lead Character Artist",            "weight": 4,  "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 10 },
+        { "name": "Mike Hatfield",       "position": "Lead Prop Artist",                 "weight": 3,  "stillPresent": false, "lastGameYear": 2016, "lastGameMonth": 5 },
+        { "name": "Gordon Hunt",         "position": "Mocap & Voice Direction",          "weight": 3,  "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
+        { "name": "Justin Monast",       "position": "Director of Information Technology","weight": 2,  "stillPresent": true }
       ],
       "events": [
         {
@@ -93,6 +93,3 @@
 
   ]
 }
-
-
-

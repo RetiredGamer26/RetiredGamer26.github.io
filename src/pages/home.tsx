@@ -63,6 +63,8 @@ interface FoundingMember {
   position: string;
   weight: number;
   stillPresent: boolean;
+  lastGameYear?: number;
+  lastGameMonth?: number;
 }
 
 interface Studio {
@@ -80,6 +82,20 @@ function calcTheseusStatus(members: FoundingMember[]): number {
   const totalWeight = members.reduce((s, m) => s + m.weight, 0);
   if (totalWeight === 0) return 0;
   const presentWeight = members.filter((m) => m.stillPresent).reduce((s, m) => s + m.weight, 0);
+  return Math.round((presentWeight / totalWeight) * 100);
+}
+
+function calcTheseusAt(members: FoundingMember[], year: number, month: number): number {
+  const totalWeight = members.reduce((s, m) => s + m.weight, 0);
+  if (totalWeight === 0) return 0;
+  const presentWeight = members
+    .filter((m) => {
+      if (m.stillPresent) return true;
+      if (m.lastGameYear == null) return false;
+      // Member is still present if their last game is on or after this event
+      return m.lastGameYear > year || (m.lastGameYear === year && (m.lastGameMonth ?? 1) >= month);
+    })
+    .reduce((s, m) => s + m.weight, 0);
   return Math.round((presentWeight / totalWeight) * 100);
 }
 
@@ -343,10 +359,12 @@ function EventDot({
   event,
   studioColor,
   searchQuery,
+  foundingMembers,
 }: {
   event: StudioEvent;
   studioColor: string;
   searchQuery: string;
+  foundingMembers: FoundingMember[];
 }) {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -367,9 +385,12 @@ function EventDot({
     ? `0 0 15px ${studioColor}80`
     : `0 0 5px ${studioColor}40`;
 
+  const theseusPct = calcTheseusAt(foundingMembers, event.year, event.month);
+  const theseusCol = theseusColor(theseusPct);
+
   return (
     <div
-      className="absolute left-1/2 -translate-x-1/2 z-20 group"
+      className="absolute left-1/2 -translate-x-1/2 z-20 group flex flex-col items-center"
       style={{ top: `${topPosition}px`, opacity: isDimmed ? 0.15 : 1, transition: "opacity 0.3s ease" }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -398,6 +419,18 @@ function EventDot({
           <div className="absolute inset-0 rounded-full animate-ping opacity-30" style={{ backgroundColor: studioColor }} />
         )}
       </motion.div>
+
+      {/* Theseus % badge */}
+      <span
+        className="mt-1 text-[8px] font-mono font-bold leading-none px-1 py-0.5 rounded"
+        style={{
+          color: theseusCol,
+          backgroundColor: `${theseusCol}18`,
+          border: `1px solid ${theseusCol}35`,
+        }}
+      >
+        {theseusPct}%
+      </span>
 
       <AnimatePresence>
         {(isHovered || isMatch) && (
@@ -521,6 +554,7 @@ function StudioColumn({
             event={event}
             studioColor={studio.color}
             searchQuery={searchQuery}
+            foundingMembers={studio.foundingMembers}
           />
         ))}
       </div>
