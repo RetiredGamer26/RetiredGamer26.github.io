@@ -8,6 +8,24 @@ import Disclaimer from "@/pages/disclaimer";
 
 const queryClient = new QueryClient();
 
+function normalizeRouterPath() {
+  const params = new URLSearchParams(window.location.search);
+  const redirectPath = params.get("p");
+
+  if (!redirectPath) {
+    return;
+  }
+
+  const basePath = import.meta.env.BASE_URL.replace(/\/$/, "");
+  const normalizedPath = redirectPath.replace(/^\/+/, "");
+  const baseUrl = `${window.location.origin}${basePath}/`;
+  const targetUrl = new URL(normalizedPath, baseUrl);
+
+  window.history.replaceState({}, "", `${targetUrl.pathname}${targetUrl.search}${targetUrl.hash}`);
+}
+
+normalizeRouterPath();
+
 function Router() {
   return (
     <Switch>

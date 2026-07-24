@@ -7,25 +7,25 @@
       "founded": 2007,
       "logo": "src/data/uncharted.png",
       "foundingMembers": [
-        { "name": "Amy Hennig",          "position": "Game Director",                    "weight": 14, "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
-        { "name": "Richard Lemarchand",  "position": "Lead Game Designer",               "weight": 10, "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
-        { "name": "Bob Rafei",           "position": "Art Direction",                    "weight": 7,  "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
-        { "name": "Bruce Straley",       "position": "Art Direction",                    "weight": 7,  "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 10 },
-        { "name": "Pal-Kristian Engstad","position": "Lead Programmers",                 "weight": 5,  "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
-        { "name": "Dan Liebgold",        "position": "Lead Programmers",                 "weight": 5,  "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 10 },
-        { "name": "Travis McIntosh",     "position": "Lead Programmers",                 "weight": 5,  "stillPresent": true },
-        { "name": "Greg Edmonson",       "position": "Music Composed by",                "weight": 5,  "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
-        { "name": "Josh Scherr",         "position": "Lead Cinematic Animator",          "weight": 4,  "stillPresent": true },
-        { "name": "Jeremy Lai-Yates",    "position": "Lead In-Game Animator",            "weight": 4,  "stillPresent": false, "lastGameYear": 2016, "lastGameMonth": 5 },
-        { "name": "Erick Pangilinan",    "position": "Lead Environmental Artists",       "weight": 4,  "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
-        { "name": "Rob Adams",           "position": "Lead Environmental Artists",       "weight": 4,  "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 10 },
-        { "name": "Bruce Swanson",       "position": "Audio Lead",                       "weight": 4,  "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
-        { "name": "Toby Tobler",         "position": "Lead Lighting Artist",             "weight": 4,  "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
-        { "name": "Judd Simantov",       "position": "Art Technical Lead",               "weight": 4,  "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 10 },
-        { "name": "Rich Diamant",        "position": "Lead Character Artist",            "weight": 4,  "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 10 },
-        { "name": "Mike Hatfield",       "position": "Lead Prop Artist",                 "weight": 3,  "stillPresent": false, "lastGameYear": 2016, "lastGameMonth": 5 },
-        { "name": "Gordon Hunt",         "position": "Mocap & Voice Direction",          "weight": 3,  "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
-        { "name": "Justin Monast",       "position": "Director of Information Technology","weight": 2,  "stillPresent": true }
+        { "name": "Amy Hennig", "position": "Game Director", "weight": 14, "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
+        { "name": "Richard Lemarchand", "position": "Lead Game Designer", "weight": 10, "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
+        { "name": "Bob Rafei", "position": "Art Direction", "weight": 7, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
+        { "name": "Bruce Straley", "position": "Art Direction", "weight": 7, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 10 },
+        { "name": "Pal-Kristian Engstad", "position": "Lead Programmers", "weight": 5, "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
+        { "name": "Dan Liebgold", "position": "Lead Programmers", "weight": 5, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 10 },
+        { "name": "Travis McIntosh", "position": "Lead Programmers", "weight": 5, "stillPresent": true },
+        { "name": "Greg Edmonson", "position": "Music Composed by", "weight": 5, "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
+        { "name": "Josh Scherr", "position": "Lead Cinematic Animator", "weight": 4, "stillPresent": true },
+        { "name": "Jeremy Lai-Yates", "position": "Lead In-Game Animator", "weight": 4, "stillPresent": false, "lastGameYear": 2016, "lastGameMonth": 5 },
+        { "name": "Erick Pangilinan", "position": "Lead Environmental Artists", "weight": 4, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
+        { "name": "Rob Adams", "position": "Lead Environmental Artists", "weight": 4, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 10 },
+        { "name": "Bruce Swanson", "position": "Audio Lead", "weight": 4, "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
+        { "name": "Toby Tobler", "position": "Lead Lighting Artist", "weight": 4, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
+        { "name": "Judd Simantov", "position": "Art Technical Lead", "weight": 4, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 10 },
+        { "name": "Rich Diamant", "position": "Lead Character Artist", "weight": 4, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 10 },
+        { "name": "Mike Hatfield", "position": "Lead Prop Artist", "weight": 3, "stillPresent": false, "lastGameYear": 2016, "lastGameMonth": 5 },
+        { "name": "Gordon Hunt", "position": "Mocap & Voice Direction", "weight": 3, "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
+        { "name": "Justin Monast", "position": "Director of Information Technology","weight": 2, "stillPresent": true }
       ],
       "events": [
         {
@@ -89,7 +89,358 @@
           "description": "Uncharted: Legacy of Thieves Collection is a remastered collection of Uncharted 4 and Uncharted: The Lost Legacy. It was released to the public for the PlayStation 5 and Windows by Naughty Dog and Iron Galaxy studios."
         }
       ]
+    },
+    {
+      "id": "god_of_war",
+      "name": "God of War",
+      "color": "#9B1C1C",
+      "founded": 2005,
+      "logo": "src/data/god_of_war.png",
+      "foundingMembers": [
+        { "name": "David Jaffe", "position": "Game Director / Lead Designer / Combat Scenarios / Writer", "weight": 18, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 3 },
+        { "name": "Marianne Krawczyk", "position": "Writer", "weight": 14, "stillPresent": false, "lastGameYear": 2013, "lastGameMonth": 3 },
+        { "name": "Alexander Stein", "position": "Writer / Technical Artist", "weight": 10, "stillPresent": false, "lastGameYear": 2005, "lastGameMonth": 3 },
+        { "name": "Cory Barlog", "position": "Lead Animator", "weight": 8, "stillPresent": true },
+        { "name": "Dave Matthews", "position": "Lead Character Artist", "weight": 7, "stillPresent": false, "lastGameYear": 2005, "lastGameMonth": 3 },
+        { "name": "Charlie Wen", "position": "Concept Artist / Marketing Art Director", "weight": 6, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 3 },
+        { "name": "Terry Smith", "position": "Art Director", "weight": 5, "stillPresent": false, "lastGameYear": 2005, "lastGameMonth": 3 },
+        { "name": "Steve Caterson (Scat)", "position": "Art Director", "weight": 5, "stillPresent": false, "lastGameYear": 2010, "lastGameMonth": 3 },
+        { "name": "Tim Moss", "position": "Lead Programmer", "weight": 4, "stillPresent": false, "lastGameYear": 2013, "lastGameMonth": 3 },
+        { "name": "Shannon Studstill", "position": "Producer", "weight": 4, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 3 },
+        { "name": "Christer Ericson", "position": "Lead Engine Programmer", "weight": 3, "stillPresent": false, "lastGameYear": 2013, "lastGameMonth": 3 },
+        { "name": "Stig Asmussen", "position": "Lead Environment Artist", "weight": 3, "stillPresent": false, "lastGameYear": 2010, "lastGameMonth": 3 },
+        { "name": "Kenneth T. Roy", "position": "Lead Flash Interlace / HUD Artist", "weight": 2, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 3 },
+        { "name": "Maximilian Vaughn Ancar", "position": "Lead Effects Artist", "weight": 2, "stillPresent": false, "lastGameYear": 2018, "lastGameMonth": 4 },
+        { "name": "Allan Becker", "position": "Director, Product Development", "weight": 2, "stillPresent": false, "lastGameYear": 2010, "lastGameMonth": 3 },
+        { "name": "Shuhei Yoshida", "position": "Vice President, Product Development", "weight": 2, "stillPresent": false, "lastGameYear": 2013, "lastGameMonth": 3 },
+        { "name": "Todd Papy", "position": "Level Design & Scripting / Combat Scenarios", "weight": 1, "stillPresent": false, "lastGameYear": 2013, "lastGameMonth": 3 },
+        { "name": "Ashley A. Morgan", "position": "Level Design & Scripting", "weight": 1, "stillPresent": false, "lastGameYear": 2005, "lastGameMonth": 3 },
+        { "name": "Jo Wright", "position": "Level Design & Scripting", "weight": 1, "stillPresent": false, "lastGameYear": 2005, "lastGameMonth": 3 },
+        { "name": "Derek Daniels", "position": "Combat System", "weight": 1, "stillPresent": false, "lastGameYear": 2005, "lastGameMonth": 3 },
+        { "name": "Richard Foge", "position": "Combat System", "weight": 1, "stillPresent": false, "lastGameYear": 2005, "lastGameMonth": 3 },
+        { "name": "Eric Williams", "position": "Combat System", "weight": 1, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 3 }
+      ],
+      "events": [
+        {
+          "year": 2005, "month": 3,
+          "type": "first_release",
+          "title": "God of War is released",
+          "description": "God of War is released to the public."
+        },
+        {
+          "year": 2007, "month": 3,
+          "type": "sequel_release",
+          "title": "God of War II is released",
+          "description": "God of War II is released to the public. 8 people left the studio after the release of God of War, including Terry Smith, Alexander Stein and Dave Matthews."
+        },
+        {
+          "year": 2007, "month": 6,
+          "type": "spinoff_release",
+          "title": "God of War: Betrayal is released",
+          "description": "God of War: Betrayal is released to the public for mobile devices. It was made by a different studio (Javaground) with input from the God of War team at Sony Santa Monica."
+        },
+        {
+          "year": 2008, "month": 3,
+          "type": "prequel_release",
+          "title": "God of War: Chains of Olympus is released",
+          "description": "God of War: Chains of Olympus is released to the public for the PSP. It was made by a different studio (Ready at Dawn) with input from David Jaffe."
+        },
+        {
+          "year": 2009, "month": 11,
+          "type": "remaster_release",
+          "title": "God of War Collection is released",
+          "description": "God of War Collection is a remastered version of God of War 1 and 2. It was released to the public for the PlayStation 3 made by Bluepoint Games under supervision of Santa Monica studios."
+        },
+        {
+          "year": 2010, "month": 3,
+          "type": "sequel_release",
+          "title": "God of War III is released",
+          "description": "God of War III is released to the public. Around 5 people left the studio after the release of God of War II, including Shannon Studstill, Charlie Wen and David Jaffe."
+        },
+        {
+          "year": 2010, "month": 11,
+          "type": "prequel_release",
+          "title": "God of War: Ghost of Sparta is released",
+          "description": "God of War: Ghost of Sparta is released to the public for the PSP. It was made by a different studio (Ready at Dawn) with input from Cory Barlog."
+        },
+        {
+          "year": 2011, "month": 9, 
+          "type": "remaster_release",
+          "title": "God of War: Origins Collection is released",
+          "description": "God of War: Origins Collection is released to the public for PS3 containing Chains of Olympus and Ghost of Sparta. It was made by a different studio (Ready at Dawn) with input from Santa Monica Studios."
+        },
+        {
+          "year": 2012, "month": 8,
+          "type": "remaster_release",
+          "title": "God of War: Saga is released",
+          "description": "God of War: Saga is released to the public containing remastered versions of the previous games. It was made by a different studio (Ready at Dawn and Bluepoint Games) with input from Santa Monica Studios."
+        },
+        {
+          "year": 2013, "month": 3,
+          "type": "prequel_release",
+          "title": "God of War: Ascension is released",
+          "description": "God of War: Ascension is released to the public. Around 4 people left the studio after the release of God of War III, including Cory Barlog, Steve Caterson and Allan Becker."
+        },
+        {
+          "year": 2014, "month": 5, 
+          "type": "remaster_release",
+          "title": "God of War: Collection is released",
+          "description": "God of War: Collection is released to the public for PS Vita containing God of War I and II. It was made by a different studio (Sanzaru Games) with input from Santa Monica Studios."
+        },
+        {
+          "year": 2015, "month": 7, 
+          "type": "remaster_release",
+          "title": "God of War III Remastered is released",
+          "description": "God of War III Remastered is a remastered version of God of War III. It was released to the public for the PlayStation 4 made by Wholesale Algorithms, INC. under supervision of Santa Monica studios."
+        },
+        {
+          "year": 2018, "month": 2, 
+          "type": "spinoff_release",
+          "title": "God of War: A Call from the Wilds",
+          "description": "God of War: A Call from the Wilds is released to the public in Facebook Messenger (I'm serious). It was made by Santa Monica Studios, there isn't much more information available."
+        },
+        {
+          "year": 2018, "month": 4, 
+          "type": "sequel_release",
+          "title": "God of War",
+          "description": "God of War is released to the public. Around 5 people left the studio after the release of God of War: Ascension, including Marianne Krawczyk, Tim Moss and Christer Ericson. Cory Barlog returned to the studio as Creative Director and writer for this game."
+        },
+        {
+          "year": 2022, "month": 1, 
+          "type": "remaster_release",
+          "title": "God of War (PC) is released",
+          "description": "God of War ported to pc. It was made by Jetpack Interactive under supervision of Santa Monica Studios."
+        },
+        {
+          "year": 2022, "month": 11, 
+          "type": "sequel_release",
+          "title": "God of War Ragnarok is released",
+          "description": "God of War: Ragnarok is released to the public. Maximilian Vaughn Ancar left the studio after the release of God of War, the second last member of the original team."
+        },
+        {
+          "year": 2023, "month": 12, 
+          "type": "spinoff_release",
+          "title": "God of War Ragnarok: Valhalla is released",
+          "description": "God of War: Ragnarok is released to the public. A DLC for God of War: Ragnarok."
+        },
+        {
+          "year": 2024, "month": 9,
+          "type": "remaster_release",
+          "title": "God of War Ragnarok + Valhalla(PC) is released",
+          "description": "God of War ported to pc. It was made by Jetpack Interactive under supervision of Santa Monica Studios."
+        },
+        {
+          "year": 2026, "month": 2,
+          "type": "prequel_release",
+          "title": "God of War Sons of Sparta is released",
+          "description": "God of War Sons of Sparta is released to the public for the PlayStation 5. It was made by a different studio (Mega Cat Studios) with input from Santa Monica Studios."
+        },
+        {
+          "year": 2026, "month": 6,
+          "type": "sequel_release",
+          "title": "God of War: Laufey is announced",
+          "description": "God of War Laufey is announced to the public. It's gonna be made by Santa Monica Studios."
+        }
+      ]
+    },
+    {
+      "id": "dragon_age",
+      "name": "Dragon Age",
+      "color": "#7A1F28",
+      "founded": 2009,
+      "logo": "src/data/dragon_age.png",
+      "foundingMembers": [
+        { "name": "David Gaider", "position": "Lead Writer", "weight": 18, "stillPresent": false, "lastGameYear": 2014, "lastGameMonth": 11 },
+        { "name": "Dan Tudge", "position": "Executive Producer / Project Director", "weight": 8, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 11 },
+        { "name": "Mark Darrah", "position": "Executive Producer / Project Director", "weight": 8, "stillPresent": false, "lastGameYear": 2014, "lastGameMonth": 11 },
+        { "name": "James Ohlen", "position": "Lead Designer", "weight": 6, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 11 },
+        { "name": "Brent Knowles", "position": "Lead Designer", "weight": 5, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 11 },
+        { "name": "Mike Laidlaw", "position": "Lead Designer", "weight": 5, "stillPresent": false, "lastGameYear": 2014, "lastGameMonth": 11 },
+        { "name": "Dean Andersen", "position": "Art Director", "weight": 5, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 11 },
+        { "name": "Alistair McNally", "position": "Director of Art & Animation", "weight": 4, "stillPresent": false, "lastGameYear": 2014, "lastGameMonth": 11 },
+        { "name": "Simon Charles Pressey", "position": "Audio Director", "weight": 3, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 11 },
+        { "name": "Caroline Livingstone", "position": "Voice-Over Producer / Director", "weight": 3, "stillPresent": false, "lastGameYear": 2014, "lastGameMonth": 11 },
+        { "name": "Ken Thain", "position": "Lead Cinematic Designer", "weight": 3, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 11 },
+        { "name": "Georg Zoeller", "position": "Lead Systems Designer", "weight": 2, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 11 },
+        { "name": "Yaron Jakobs", "position": "Gameplay Creature Lead", "weight": 2, "stillPresent": true },
+        { "name": "Tony de Waal", "position": "Lead Cinematic Animator", "weight": 2, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 11 },
+        { "name": "John Santos", "position": "Animation Lead", "weight": 2, "stillPresent": true },
+        { "name": "Charles Looker", "position": "Lead Technical Animator", "weight": 2, "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
+        { "name": "Shane Hawco", "position": "Character Art Director", "weight": 2, "stillPresent": true },
+        { "name": "Matthew M. Goldman", "position": "Senior Artist", "weight": 2, "stillPresent": false, "lastGameYear": 2014, "lastGameMonth": 11 },
+        { "name": "Ian Stubbington", "position": "Lead Level Artist", "weight": 2, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 11 },
+        { "name": "Warren Heise", "position": "Lead GUI Artist", "weight": 1, "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
+        { "name": "Daniel Fedor", "position": "Lead Technical Artist", "weight": 1, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 11 },
+        { "name": "Alim Chaarani", "position": "Lead Visual Effects Artist", "weight": 1, "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
+        { "name": "Ross Gardner", "position": "Lead Programmer", "weight": 1, "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
+        { "name": "Dave Hill", "position": "Lead Graphics Programmer", "weight": 1, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 11 },
+        { "name": "Jacques Lebrun", "position": "Game Engine Lead Programmer", "weight": 1, "stillPresent": false, "lastGameYear": 2014, "lastGameMonth": 11 },
+        { "name": "Shauna Perry", "position": "Director of Audio / Localization / External Resources", "weight": 1, "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
+        { "name": "Raymond Muzyka", "position": "CEO / General Manager", "weight": 1, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 11 },
+        { "name": "Greg Zeschuk", "position": "VP, Development Operations", "weight": 1, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 11 }
+      ],
+      "events":[
+        {
+          "year": 2009, "month": 11,
+          "type": "first_release",
+          "title": "Dragon Age: Origins is released",
+          "description": "Dragon Age: Origins is released to the public."
+        },
+        {
+          "year": 2010, "month": 3,
+          "type": "sequel_release",
+          "title": "Dragon Age: Origins - Awakening is released",
+          "description": "Dragon Age: Origins - Awakening is released to the public. An expansion pack for Dragon Age: Origins."
+        },
+        {
+          "year": 2011, "month": 11, 
+          "type": "sequel_release",
+          "title": "Dragon Age II is released",
+          "description": "Dragon Age II is released to the public. Around 14 people left the studio after the release of Dragon Age: Origins, including Dan Tudge, James Ohlen and Brent Knowles."
+        },
+        {
+          "year": 2013, "month": 12,
+          "type": "spinoff_release",
+          "title": "Heroes of Dragon Age is released",
+          "description": "Heroes of Dragon Age is released to the public. It was made by a different studio (Capital Games)."
+        },
+        {
+          "year": 2014, "month": 11,
+          "type": "sequel_release",
+          "title": "Dragon Age: Inquisition is released",
+          "description": "Dragon Age: Inquisition is released to the public. Around 7 people left the studio after the release of Dragon Age II, including David Gaider, Mark Darrah and Mike Laidlaw."
+        },
+        {
+          "year": 2024, "month": 10,
+          "type": "sequel_release",
+          "title": "Dragon Age: The Veilguard is released",
+          "description": "Dragon Age: The Veilguard is released to the public. Around 5 people left the studio after the release of Dragon Age: Inquisition, including Shane Hawco, Ian Stubbington and Dave Hill."
+        }
+      ]
+    },
+    {
+      "id": "assassin_creed",
+      "name": "Assassin's Creed",
+      "color": "#A12A2A",
+      "founded": 2007,
+      "logo": "src/data/assassin_creed.png",
+      "foundingMembers": [
+        { "name": "Corey May", "position": "Script Writer", "weight": 18, "stillPresent": false, "lastGameYear": 2012, "lastGameMonth": 11 },
+        { "name": "Patrice Desilets", "position": "Creative Director", "weight": 14, "stillPresent": false, "lastGameYear": 2010, "lastGameMonth": 11 },
+        { "name": "Jade Raymond", "position": "Producer", "weight": 8, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 11 },
+        { "name": "Raphaël Lacoste", "position": "Art Director", "weight": 8, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
+        { "name": "Jesper Kyd", "position": "Music Composed by", "weight": 7, "stillPresent": false, "lastGameYear": 2011, "lastGameMonth": 11 },
+        { "name": "Maxime Béland", "position": "Game Design Director", "weight": 6, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
+        { "name": "David Châteauneuf", "position": "Level Design Director", "weight": 5, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
+        { "name": "Alex Drouin", "position": "Animation Director Altair", "weight": 4, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 11 },
+        { "name": "Sylvain Bernard", "position": "Animation Director Crowd/Cinematics / Mocap Shoot Director / Mocap Actor", "weight": 4, "stillPresent": false, "lastGameYear": 2010, "lastGameMonth": 11 },
+        { "name": "Simon Peacock", "position": "Voice & Casting Director", "weight": 3, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
+        { "name": "Simon Pressey", "position": "Sound Technical & Artistic Advisor", "weight": 2, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
+        { "name": "Mathieu Jeanson", "position": "Lead Audio Designer", "weight": 2, "stillPresent": false, "lastGameYear": 2010, "lastGameMonth": 11 },
+        { "name": "Paul Cobb", "position": "Historian", "weight": 2, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
+        { "name": "David Nicolle", "position": "Historian", "weight": 2, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
+        { "name": "Dominic Couture", "position": "Technical Architect", "weight": 2, "stillPresent": false, "lastGameYear": 2009, "lastGameMonth": 11 },
+        { "name": "Mathieu Mazerolle", "position": "Lead Programmer", "weight": 1, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
+        { "name": "Nicolas Cantin", "position": "Pre-Production Art Director", "weight": 1, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
+        { "name": "Marc-Antoine Lussier", "position": "Missions Technical Director", "weight": 1, "stillPresent": false, "lastGameYear": 2010, "lastGameMonth": 11 },
+        { "name": "Pier-Luc Papineau", "position": "Level Design Technical Director", "weight": 1, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
+        { "name": "Danny Oros", "position": "Art Technical Director", "weight": 1, "stillPresent": false, "lastGameYear": 2010, "lastGameMonth": 11 },
+        { "name": "Dominique Duvivier", "position": "Engine Team Lead", "weight": 1, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 },
+        { "name": "Stéphane Girard", "position": "Engine Team Lead", "weight": 1, "stillPresent": false, "lastGameYear": 2007, "lastGameMonth": 11 }
+      ],
+      "events":[
+        {
+          "year": 2007, "month": 11,
+          "type": "first_release",
+          "title": "Assassin's Creed is released",
+          "description": "Assassin's Creed is released to the public."
+        },
+        {
+          "year": 2009, "month": 11,
+          "type": "sequel_release",
+          "title": "Assassin's Creed II is released",
+          "description": "Assassin's Creed II is released to the public. Around 12 people left the studio after the release of Assassin's Creed, including Raphaël Lacoste, Maxime Béland and David Châteauneuf."
+        },
+        {
+          "year": 2010, "month": 11,
+          "type": "sequel_release",
+          "title": "Assassin's Creed: Brotherhood is released",
+          "description": "Assassin's Creed: Brotherhood is released to the public. Around 3 people left the studio after the release of Assassin's Creed II, including Jade Raymond, Alex Drouin and Dominic Couture."
+        },
+        {
+          "year": 2011, "month": 11,
+          "type": "sequel_release",
+          "title": "Assassin's Creed: Revelations is released",
+          "description": "Assassin's Creed: Revelations is released to the public. Around 5 people left the studio after the release of Assassin's Creed: Brotherhood, including Patrice Desilets, Sylvain Bernard and Mathieu Jeanson. Raphaël Lacoste returned for this release"
+        },
+        {
+          "year": 2012, "month": 11,
+          "type": "sequel_release",
+          "title": "Assassin's Creed III is released",
+          "description": "Assassin's Creed III is released to the public. Only one person left the studio after the release of Assassin's Creed: Revelations, Jesper Kyd."
+        },
+        {
+          "year": 2013, "month": 10,
+          "type": "sequel_release",
+          "title": "Assassin's Creed IV: Black Flag is released",
+          "description": "Assassin's Creed IV: Black Flag is released to the public. Corey May, the last member of the original team, left the studio after the release of Assassin's Creed III. Raphaël Lacoste and Danny Oros returned for this release."
+        },
+        {
+          "year": 2014, "month": 11,
+          "type": "sequel_release",
+          "title": "Assassin's Creed: Rogue is released",
+          "description": "Assassin's Creed: Rogue is released to the public. There are no remaining members of the original team from the first game."
+        },
+        {
+          "year": 2014, "month": 11,
+          "type": "sequel_release",
+          "title": "Assassin's Creed: Unity is released",
+          "description": "Assassin's Creed: Unity is released to the public. There are no remaining members of the original team from the first game, Sylvain Bernard and Mathieu Jeanson returned for this release."
+        },
+        {
+          "year": 2015, "month": 11,
+          "type": "sequel_release",
+          "title": "Assassin's Creed: Syndicate is released",
+          "description": "Assassin's Creed: Syndicate is released to the public. There are no remaining members of the original team from the first game, Corey May returned for this release." 
+        },
+        {
+          "year": 2017, "month": 10,
+          "type": "sequel_release",
+          "title": "Assassin's Creed: Origins is released",
+          "description": "Assassin's Creed: Origins is released to the public. There are no remaining members of the original team from the first game, Raphaël Lacost returned for this release."
+        },
+        {
+          "year": 2018, "month": 10,
+          "type": "sequel_release",
+          "title": "Assassin's Creed: Odyssey is released",
+          "description": "Assassin's Creed: Odyssey is released to the public. There are no remaining members of the original team from the first game."
+        },
+        {
+          "year": 2020, "month": 11,
+          "type": "sequel_release",
+          "title": "Assassin's Creed: Valhalla is released",
+          "description": "Assassin's Creed: Valhalla is released to the public. There are no remaining members of the original team from the first game, Raphaël Lacoste and Jesper Kyd returned for this release."
+        },
+        {
+          "year": 2023, "month": 10,
+          "type": "sequel_release",
+          "title": "Assassin's Creed: Mirage is released",
+          "description": "Assassin's Creed: Mirage is released to the public. There are no remaining members of the original team from the first game."
+        },
+        {
+          "year": 2025, "month": 3,
+          "type": "sequel_release",
+          "title": "Assassin's Creed: Shadows is released",
+          "description": "Assassin's Creed: Shadows is released to the public. There are no remaining members of the original team from the first game."
+        },
+        {
+          "year": 2026, "month": 7,
+          "type": "sequel_release",
+          "title": "Assassin's Creed Black Flag: Resynced is released",
+          "description": "Assassin's Creed Black Flag: Resynced is released to the public. Information in progress."
+        }
+      ]
     }
-
   ]
 }
+

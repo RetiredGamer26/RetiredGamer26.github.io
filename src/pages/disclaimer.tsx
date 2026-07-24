@@ -12,12 +12,25 @@ function Disclaimer() {
           </CardHeader>
           <CardContent className="space-y-4 text-sm leading-6">
             <p>
-              This application is provided for informational purposes only. Statuses,
-              timelines, and franchise availability may be updated without notice.
+              I made this webpage under the idea that a franchise whose founding 
+              members left long ago have lost it's esence and thus the franchise 
+              is no longer the same. This is a personal opinion and should not be 
+              taken as fact. 
             </p>
             <p>
-              Always verify important details directly with the relevant franchise or
-              organization before making decisions based on this information.
+              This webpage is provided for informational purposes only. The 
+              information used only comes from the games' credits, claimings of 
+              "deception", "bias" or "harming" should be consulted with the game 
+              credit's itself. However, if mistakes or inaccuracies were to be 
+              be found in this webpage please contact me with corresponding 
+              proof and it shall be corrected when time from my part is avalable.
+            </p>
+            <p>
+              Email: jason2026lee@gmail.com
+            </p>
+            <p>
+              Sincerly, <br />
+              <strong>RetiredGamer</strong>
             </p>
             <div>
               <Button asChild variant="outline">

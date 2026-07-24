@@ -9,13 +9,12 @@ if (Number.isNaN(port) || port <= 0) {
   throw new Error(`Invalid PORT value: "${rawPort}"`);
 }
 
-const basePath = process.env.BASE_PATH || "/";
+const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1];
+const basePath = process.env.BASE_PATH || (process.env.GITHUB_ACTIONS && repoName ? `/${repoName}/` : "/");
 
 export default defineConfig({
   base: basePath,
-  plugins: [
-    react(),
-  ],
+  plugins: [react()],
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "src"),
@@ -29,16 +28,14 @@ export default defineConfig({
   },
   server: {
     port,
-    strictPort: true,
-    host: "0.0.0.0",
-    allowedHosts: true,
+    strictPort: false,
+    host: "127.0.0.1",
     fs: {
       strict: true,
     },
   },
   preview: {
     port,
-    host: "0.0.0.0",
-    allowedHosts: true,
+    host: "127.0.0.1",
   },
 });
