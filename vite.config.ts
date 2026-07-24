@@ -9,11 +9,8 @@ if (Number.isNaN(port) || port <= 0) {
   throw new Error(`Invalid PORT value: "${rawPort}"`);
 }
 
-const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1];
-const basePath = process.env.BASE_PATH || (process.env.GITHUB_ACTIONS && repoName ? `/${repoName}/` : "/");
-
 export default defineConfig({
-  base: basePath,
+  base: "/",
   plugins: [react()],
   resolve: {
     alias: {
