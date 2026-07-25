@@ -10,16 +10,21 @@ const queryClient = new QueryClient();
 
 function normalizeRouterPath() {
   const params = new URLSearchParams(window.location.search);
-  const redirectPath = params.get("p");
+  const redirectPath = params.get("p") ?? window.location.pathname;
 
-  if (!redirectPath) {
+  if (!redirectPath || redirectPath === "/") {
     return;
   }
 
   const basePath = import.meta.env.BASE_URL.replace(/\/$/, "");
+  const normalizedBasePath = basePath === "" ? "" : `/${basePath.replace(/^\/+|\/+$/g, "")}`;
   const normalizedPath = redirectPath.replace(/^\/+/, "");
-  const baseUrl = `${window.location.origin}${basePath}/`;
-  const targetUrl = new URL(normalizedPath, baseUrl);
+  const routePath = normalizedBasePath && normalizedPath.startsWith(normalizedBasePath.replace(/^\/+/, ""))
+    ? `/${normalizedPath.slice(normalizedBasePath.replace(/^\/+/, "").length).replace(/^\/+/, "") || ""}`
+    : `/${normalizedPath}`;
+  const safeRoutePath = routePath === "/" ? "/" : routePath;
+  const baseUrl = `${window.location.origin}${normalizedBasePath || "/"}`;
+  const targetUrl = new URL(safeRoutePath, baseUrl);
 
   window.history.replaceState({}, "", `${targetUrl.pathname}${targetUrl.search}${targetUrl.hash}`);
 }
