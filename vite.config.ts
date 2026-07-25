@@ -9,8 +9,14 @@ if (Number.isNaN(port) || port <= 0) {
   throw new Error(`Invalid PORT value: "${rawPort}"`);
 }
 
+const githubRepo = process.env.GITHUB_REPOSITORY ?? "";
+const [owner = "", repo = ""] = githubRepo.split("/");
+const isUserSite = repo.toLowerCase().endsWith(".github.io") && owner.toLowerCase() === repo.replace(/\.github\.io$/i, "");
+const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
+const base = isGitHubPages ? (isUserSite ? "/" : `/${repo}/`) : "/";
+
 export default defineConfig({
-  base: "/",
+  base,
   plugins: [react()],
   resolve: {
     alias: {

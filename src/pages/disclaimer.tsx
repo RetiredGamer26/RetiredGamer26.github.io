@@ -34,7 +34,7 @@ function Disclaimer() {
             </p>
             <div>
               <Button asChild variant="outline">
-                <Link href="/">Back to home</Link>
+                <Link href={import.meta.env.BASE_URL.replace(/\/$/, "") || "/"}>Back to home</Link>
               </Button>
             </div>
           </CardContent>

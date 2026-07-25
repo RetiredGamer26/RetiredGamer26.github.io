@@ -673,7 +673,7 @@ export default function Home() {
 
       {/* Disclaimer button — fixed top-right, always above Timeline column */}
       <Link
-        href="/disclaimer"
+        href={import.meta.env.BASE_URL.replace(/\/$/, "") + "/disclaimer"}
         data-testid="link-disclaimer"
         className="fixed top-4 right-32 z-[60] flex items-center gap-2 px-3 py-1.5 rounded-md border border-white/10 bg-background/80 backdrop-blur-sm text-muted-foreground hover:text-foreground hover:border-white/20 hover:bg-white/5 transition-all text-[11px] font-mono uppercase tracking-widest group"
         title="Disclaimer"
